@@ -6,7 +6,7 @@ const Menu = ({onClick}) =>
           <div className="PreviewCopy PreviewCopyThree"></div>
         </div>
         <div className="col-4">
-          <div className="BoardCopy"></div>
+          <div className="BoardCopy" style={{marginLeft: "-80px !important"}}></div>
         </div>
         <div className="col-4 row">
           <div className="col-12" style={{paddingLeft: '1.2%', marginTop: '-61.3%'}}>

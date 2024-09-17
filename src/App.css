@@ -75,7 +75,7 @@
   color: #ada8a8;
   /* background-color: #406; */
   background-image: url("./img/bg.jpg");
-  height: 100vh;
+  height: 110vh;
   padding: 20px;
 }
 
@@ -245,19 +245,19 @@ BoardCell */
 }
 
 .PreviewCopyOne {
-  margin-top: -18.9% !important;
+  margin-top: -25% !important;
 }
 
 .PreviewCopyTwo {
-  margin-top: 1% !important;
+  margin-top: 10% !important;
 }
 
 .PreviewCopyThree{
- margin-top: -0.1% !important;
+ margin-top: 10% !important;
 }
 
 .BoardCopy {
-  padding: 162px !important;
+  /* padding: 162px !important;
   width: 80px;
   height: 554px;
   background: rgb(32, 0, 64);
@@ -265,8 +265,19 @@ BoardCell */
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 7.8% !important;
-  margin-left: 4%;
+  margin-left: 4%; */
+  margin-top: 7.8% !important;
+  margin-left: 4%; 
+  display: grid;
+  grid-gap: 2px;
+  width: 28vw;
+  height: 45vw;
+  background: rgb(32, 0, 64);
+  border: 10px solid rgb(32, 0, 64);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+/* } */
 
 /* GameStats */
 .GameStatsCopy {
